@@ -26,7 +26,8 @@ static partial class Implementation
                     "rider",
                     launchArguments,
                     "/Applications/Rider.app/Contents/MacOS/",
-                    "/usr/local/bin/"),
+                    "/usr/local/bin/",
+                    "~/Library/Application Support/JetBrains/Toolbox/scripts"),
                 Linux: new(
                     "rider.sh",
                     launchArguments,
